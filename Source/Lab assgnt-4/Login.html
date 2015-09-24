@@ -1,0 +1,37 @@
+<body style="background-color:pink">
+<h1 style="text-align:center">Web application</h1>
+<h2 style="text-align:center">Login here</h2>
+
+<div ng-app ng-controller="LoginController">
+    
+    
+    
+   <div class="input">
+       
+       <table align="center">
+          <tr>
+            <td>USER NAME</td>
+            <td><input ng-model="user.firstName"></input></td>
+          </tr>
+            <br/><br/>
+          <tr>
+            <td>PASSWORD</td>
+            <td><input ng-model="user.pwd" type="password"></td> 
+          </tr>
+        </table>
+       
+ <br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<input type="submit" ng-click="login(user.firstName, user.pwd)" value="Login"></input>
+&emsp;&emsp;
+<button type="button"><a href="#register" class="btn btn-success btn-lg">Register</a></button>
+<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<a href="#Register" class="btn btn-danger btn-lg">Forgot password??</a>       
+         
+    
+    
+    <br/><br/>
+</div>   
+</div>
+</body>
