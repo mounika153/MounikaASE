@@ -1,0 +1,29 @@
+<ion-view view-title="Barcode Details">
+  <ion-content>
+    <!--<ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Deleteeeeeeeeeeeeeeeeeeeeeeeeeee
+        </ion-option-button>
+      </ion-item>
+    </ion-list>-->
+      
+     <div class="list">
+  <label class="item item-input">
+    <input type="text" placeholder="Enter Barcode" id="barcode1" ng-model="barcode1">
+  </label>
+  <button class="button button-light" ng-click="getDetails();">
+  Show Details
+</button>
+         <div ng-repeat="getDetails in barcodes">{{ getDetails }}</div>
+<!--Product Details : 
+         Name: {{name}}
+         Price : {{price}}-->
+</div>  
+  </ion-content>
+</ion-view>
