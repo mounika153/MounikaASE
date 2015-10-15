@@ -1,0 +1,25 @@
+<ion-view title="Reset Password Page">
+    <ion-content class="barc">
+        <div>
+            <h2>{{name}}</h2>
+            <div class="list list-inset">
+                
+                <p class="display">{{passmsg}}</p><br><br>
+                <label class="item item-input">
+                    <input ng-model="password" type="text" placeholder="Enter your new Password" />
+                </label>
+                                
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    <a class="button" ng-click="updateUser(password)">Reset</a>
+                </div>
+                <br><br>
+                
+                
+            </div>
+            
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,31 @@
+<ion-view title="My Application : Sign In Page">
+    <ion-content class="barc">
+        <div>
+            <div class="list list-inset">
+                <p class="error">{{errormsg}}</p>
+                <p class="display">{{sucmsg}}</p>
+                <p class="display">{{msg}}</p><br><br>
+                
+                <label class="item item-input">
+                    <input ng-model="username" type="text" placeholder="Username" />
+                </label>
+             <label class="item item-input">
+                    <input ng-model="password" type="password" placeholder="Password" />
+                </label>
+                
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    <a class="button" ng-click="login(username, password)">Sign In</a>
+                    <a class="button" ng-click="register()">New user..Sign Up here</a>
+                    <a class="button" ng-click="delete(username, password)">Delete my account</a>
+                    </div>
+                <br><br>
+                
+                
+            </div>
+            
+        </div>
+    </ion-content>
+</ion-view>

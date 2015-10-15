@@ -1,0 +1,9 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/ADMIN/AndroidStudioProjects/ImageApp/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js",
+        "D:/ASE/Tutorial 7/ImageApp/platforms/android/platform_www/cordova-js-src/exec.js",
+        "D:/ASE/Tutorial 7/ImageApp/platforms/android/platform_www/cordova-js-src/platform.js",
+        "D:/ASE/Tutorial 7/ImageApp/platforms/android/platform_www/cordova.js",
+        "D:/ASE/Tutorial 7/ImageApp/platforms/ios/cordova/lib/build.js"
+    ]
+}

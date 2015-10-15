@@ -1,0 +1,41 @@
+<ion-view title="Barcode Scanner">
+    <ion-content class="barc">
+        <div>
+            
+       <h2 class="display" align="center">Welcome {{user}}</h2>
+        
+            <p align="right">
+                <button id="btn" ng-click="changepassword()" style=""> Change Password </button>
+                 </p> 
+            <p align="right">
+                <button id="btn" ng-click="logout()" style=""> Log out </button>
+                 </p> 
+        
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Enter the URL of a barcode image : 
+        <p align="center">
+        <input type="text" ng-model="imageurl" id="imageurl"/>
+            </p>
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Barcode Image: <img src="{{imageurl}}" >
+            <br>
+        <p align="center">
+         <button id="btn" ng-click="getWeather()"> Show Barcode </button><br>
+        </p>
+    
+<div data-ng-model="st_temp"></div>
+    <div data-ng-model="end_temp"></div>
+    
+    
+    <p align="center">Barcode:  {{st_place}}  </p>
+    <input type="hidden" id="barcode" value="{{st_place}}"/>
+        <p align="center">
+    <button id="btn" ng-click="getDetails()"> Get Product Details </button>
+        </p>
+    <p align="center">Name:  {{end_place}}  </p>
+            <br>
+            <br>
+             
+            <br>
+        </div>
+    </ion-content>
+</ion-view>
