@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+.button{
+background-color: lightcoral;
+}
+
+.msg{
+color: blueviolet
+}
+
+.display{
+color: green;
+}
+
+.error{
+color: red;
+}
+
+.barc{
+
+background-color: lightpink;
+
+}
+
+.list.list-inset{
+    background-color: lightpink;
+}
+
+.bar.bar-stable .title {
+    background-color: crimson;
+    text-decoration-color: lightcoral;
+}
