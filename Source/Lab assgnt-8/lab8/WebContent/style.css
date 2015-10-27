@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    background-image: url("grocery.jpg");
+}
+
+h2 {
+    color: red;
+}
+tr{
+	color: blue;
+	background-color: white;
+}
+
+.button {
+    color: green;
+    background-color: white;
+}
