@@ -1,0 +1,27 @@
+<ion-view title="Change Password Page">
+    <ion-content class="barc">
+        <div>
+            <h2 class="display">{{name}}</h2>
+            <div class="list list-inset">
+                
+                <p class="display">{{passmsg}}</p><br>
+                <label class="item item-input">
+                    <input ng-model="password" type="password" placeholder="Enter new Password" />
+                </label>
+                                
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    <a class="button" ng-click="updateUser(password)">Change Password</a>
+                    
+                    
+                </div>
+                <br><br>
+                
+                
+            </div>
+            
+        </div>
+    </ion-content>
+</ion-view>
