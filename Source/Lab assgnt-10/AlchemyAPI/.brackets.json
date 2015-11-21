@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/mayanka/Desktop/GuRu/MaStErS/AsE/TA/AlchemyClient/plugins/cordova-plugin-console/www/logger.js",
+        "/Users/mayanka/Desktop/GuRu/MaStErS/AsE/TA/AlchemyClient/www/js/directives.js",
+        "/Users/mayanka/Desktop/GuRu/MaStErS/AsE/TA/AlchemyClient/www/js/app.js",
+        "/Users/mayanka/Desktop/GuRu/MaStErS/AsE/TA/AlchemyClient/www/js/controllers.js"
+    ]
+}

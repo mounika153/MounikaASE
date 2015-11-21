@@ -1,0 +1,20 @@
+<ion-view ng-controller="sentimentCtrl" title="Sentiment Analysis">
+    <ion-content padding="true" class="has-header">
+        <form class="list">
+            <div class="list">
+          
+        </div>
+            <label class="item item-input">
+               
+                <input type="text" placeholder="Please enter URL for sentiment analysis" ng-model="SearchURL">
+            </label>
+        </form>
+        <button class="button button-positive button-block button-small" ng-click="getSentiment(SearchURL)">Get Sentiment</button>
+        <div>
+            
+            <p>Score : {{result.docSentiment.score}}</p>
+            <p>Sentiment : {{result.docSentiment.type}}</p>
+            
+        </div>
+    </ion-content>
+</ion-view>
