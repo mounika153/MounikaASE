@@ -1,0 +1,71 @@
+<ion-view title="Invoice Page">
+    <ion-content class="barc">
+        <div>
+            <div class="bar bar-header bar-energized">
+              <h1 class="title">Invoice page</h1>
+            </div>
+            <br><br>
+            <div class="list list-inset">
+                <p class="error">{{errormsg}}</p>
+                <p class="display">{{sucmsg}}</p>
+                               
+                <table align = "center" style="width:100%" >
+                    
+                <tr style="font-weight:bold">
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    
+                    <th></th>
+                    
+                  </tr>
+                     
+                  <tr ng-repeat="login in product">
+                    <td>{{ login.productName }}{{login.index}}</td>
+                    <td>{{ login.productPrice }}</td>
+                     
+                      <td><input type="image" id="myimage" style="height:20px;width:20px;" src="https://pixabay.com/static/uploads/photo/2014/03/24/13/45/incorrect-294245_640.png" ng-click="deleteItem({{login.index}})"/></td>
+                    
+                  </tr>
+                  <tr style="font-weight:bold">
+                    <td>Subtotal</td>
+                    <td>{{ total }}</td>
+                      <td></td>
+                  
+                    
+                  </tr>
+                    <tr style="font-weight:bold">
+                    <td>Tax 5%</td>
+                    <td>{{tax}}</td>
+                        <td></td>
+                        
+                    
+                  </tr>
+                    <tr style="font-weight:bold">
+                    <td>Total Amount</td>
+                    <td>{{ amount }}</td>
+                        <td></td>
+                       
+                    
+                  </tr>
+                    
+                </table>
+            
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                <a class="button" ng-click="addItem()">Add Item</a>
+                </div>
+                <div class="button-bar">
+                    
+                    <a class="button" ng-click="confirm()">Confirm Order</a>
+                   
+                </div>
+                <br><br>
+                
+            </div>
+            
+        </div>
+        </div>
+    </ion-content>
+</ion-view>

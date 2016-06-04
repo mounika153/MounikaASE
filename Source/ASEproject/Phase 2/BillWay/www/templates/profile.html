@@ -1,0 +1,70 @@
+<ion-view>
+    <ion-content class="barc">
+        <div class="bar bar-header bar-assertive">
+            <a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="back()">Back</a>
+  <h1 class="title">Profile page</h1>
+    
+</div>
+     <!--  <div class="bar bar-header">
+                <a class="button icon-left ion-chevron-left button-clear button-dark">Back</a>
+        </div>-->
+        <br>
+        <h2 class="display">{{changemsg}}</h2>
+        <br>
+        <div class="list">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">First Name</span>
+    <input type="text" id= "firstname" value={{name}}>
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Last Name</span>
+    <input type="text" id="lastname" value={{lname}}>
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Mobile</span>
+    <input type="text" id="mobile" value={{mobile}}>
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Email</span>
+    <input type="text" id="email" value={{email}}>
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Address line 1</span>
+    <input type="text" id="address1" value={{address1}}>
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Address line 2</span>
+    <input type="text" id="address2" value={{address2}}>
+  </label>
+                  <label class="item item-input item-stacked-label">
+    <span class="input-label">City</span>
+    <input type="text" id="city" value={{city}}>
+  </label>
+             <label class="item item-input item-stacked-label">
+    <span class="input-label">Country</span>
+    <input type="text" id="country" value={{country}}>
+  </label>
+            
+             <label class="item item-input item-stacked-label">
+    <span class="input-label">Password</span>
+    <input type="text" id="pass" value={{password}}>
+  </label>
+        </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    
+            </button>
+                    <button class="button button-full button-assertive" ng-click="savechanges()">Save changes</button>
+                  </button>
+                    
+                </div>
+                <br><br>
+                
+                
+            </div>
+            
+        </div>
+        </div>
+    </ion-content>
+</ion-view>

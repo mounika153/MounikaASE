@@ -1,0 +1,9 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/ADMIN/AndroidStudioProjects/ImageApp/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js",
+        "C:/Users/ADMIN/AndroidStudioProjects/ImageApp/tests/karma.conf.js",
+        "C:/Users/ADMIN/AndroidStudioProjects/ImageApp/platforms/ios/cordova/lib/spawn.js",
+        "C:/Users/ADMIN/AndroidStudioProjects/ImageApp/platforms/ios/cordova/lib/versions.js",
+        "C:/Users/ADMIN/AndroidStudioProjects/ImageApp/platforms/ios/CordovaLib/cordova.js"
+    ]
+}

@@ -1,0 +1,82 @@
+<ion-view>
+    <ion-content class="barc">
+        <div>
+        <div class="bar bar-header bar-assertive">
+            <a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="back()">Back</a>
+  <h1 class="title">Sign Up page</h1>
+</div>
+        <br>
+            <br>
+            <p class="error">{{errormsg}}</p>
+            <div class="list list-inset">
+                <label class="item item-input">
+                    <input ng-model="firstname" type="text" placeholder="First Name" id="firstname"/>
+                </label>
+                <label class="item item-input">
+                    <input ng-model="lastname" type="text" placeholder="Last Name" id="lastname"/>
+                </label>
+                <!--<label class="item item-input">
+                    <input ng-model="username" id="username" type="text" placeholder="User Name" />
+                </label>-->
+                <label class="item item-input">
+                    <!--<span class="input-label">Telephone</span>-->
+                    <input ng-model="mobile"  id="mobile" type="tel" placeholder="Mobile Number" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="email" id="email" type="text" placeholder="Email Address" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="address1" id="address1" type="text" placeholder="Address Line 1" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="address2" id="address2" type="text" placeholder="Address Line 2" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="city" id="city" type="text" placeholder="City" />
+                </label>
+            
+
+  <label class="item item-input item-select">
+<div class="input-label">
+      Country
+    </div>
+    <select id="country">
+      <option>India</option>
+      <option selected>U.S.A</option>
+      <option>Canada</option>
+        <option>United kingdom</option>
+        <option>South Africa</option>
+        <option>Germany</option>
+    </select>
+     
+                </label>
+
+
+               <!-- <label class="item item-input">
+                    <input ng-model="country"  id="country" type="text" placeholder="Country" />
+                </label>-->
+                <label class="item item-input">
+                    <input ng-model="password" id="pass" type="password" placeholder="Password" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="repassword"  id="repass" type="password" placeholder="Re-enter Password" />
+                </label>
+                
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    
+            </button>
+                    <button class="button button-full button-assertive" ng-click="createUser()">Register</button>
+                    
+                </div>
+                <br><br>
+                
+                
+            </div>
+            
+        </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-view title="Recommendation Page">
+    <ion-content class="barc">
+        <div>
+            <div class="bar bar-header bar-energized">
+              <h1 class="title">Recommendation page</h1>
+            </div>
+            <br><br>
+            <div class="list list-inset" style="filter:alpha(opacity=50); opacity:0.5;">
+            
+                <p>The following items are recommended based on previous purchases</p>
+                <div ng-repeat="scan in recordsDis" class="display"><input type="checkbox" name="record" value="{{scan}}">{{ scan }}<br></div><br>
+                
+            </div>
+           
+            <div class="button-bar">
+                  
+                    <a class="button" ng-click="addToCart();" >Add to Cart</a>
+                   
+                </div>
+            
+    </ion-content>
+</ion-view>

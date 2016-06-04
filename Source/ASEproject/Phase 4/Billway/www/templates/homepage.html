@@ -1,0 +1,47 @@
+<ion-view title="Home Page">
+        
+    <ion-content class="barc">
+       
+        <div>
+            <br>
+            <br>
+           
+             <div class="bar bar-header bar-energized">
+                            
+                <h1 class="title">Home Page</h1>
+                  <button class="button button button-balanced" ng-click="logout();" >Log out</button>
+                </div>
+            
+            <div class="bar bar-assertive">
+                
+                <button class="button button button-balanced" ng-click="myBills();" >My Bills</button>
+                <button class="button button button-balanced" ng-click="profile();" >My Profile</button>
+                <button class="button button button-balanced" ng-click="recomend();" >Recommendations</button>
+                <button class="button button button-balanced" ng-click="showCharts();" >Analysis</button>
+                 </div>
+            
+            <br><br>
+            <h2 class="display">{{user}}</h2>
+           
+            <div class="list list-inset">
+                
+                <label>
+                <p class="msg">Please scan the Item</p>
+                </label>
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    <a class="button" ng-click="scan();" >Scan</a>
+                    <a class="button" ng-click="doneScan();" >Check Out</a>
+                   
+                </div>
+                <br><br>
+                <div id="chartdiv"></div>
+                <div ng-repeat="scan in scans" class="display">{{ scan }}</div>
+                
+            </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,47 @@
+<ion-view title="Invoice Page">
+    <ion-content class="barc">
+        <div>
+            <div class="bar bar-header bar-energized">
+              <h1 class="title">Invoice page</h1>
+            </div>
+            <br><br>
+            <div class="list list-inset">
+                <p class="error">{{errormsg}}</p>
+                <p class="display">{{sucmsg}}</p>
+                  
+                <table align = "center" style="width:100%" >
+                <tr style="font-weight:bold">
+                    <th>Product Name</th>
+                    <th>Product Price</th>		
+                    
+                  </tr>
+                     
+                  <tr ng-repeat="login in products">
+                    <td>{{ login.productName }}</td>
+                    <td>{{ login.productPrice }}</td>		
+                    
+                  </tr>
+                  
+                  <tr style="font-weight:bold">
+                    <td>Subtotal</td>
+                    <td>{{ total }}</td>		
+                    
+                  </tr>
+                    <tr style="font-weight:bold">
+                    <td>Tax 5%</td>
+                    <td>{{tax}}</td>		
+                    
+                  </tr>
+                    <tr style="font-weight:bold">
+                    <td>Total Amount</td>
+                    <td>{{ amount }}</td>		
+                    
+                  </tr>
+                    
+                </table>
+               
+            </div>
+            
+        </div>
+    </ion-content>
+</ion-view>

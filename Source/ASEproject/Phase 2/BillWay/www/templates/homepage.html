@@ -1,0 +1,74 @@
+<ion-view>
+    <ion-content class="barc">
+        <div>
+            <div class="bar bar-header bar-assertive">
+            
+  <h1 class="title">Billway Home Page</h1>
+</div>
+            <br>
+            <br>
+            <!--<div class="list">
+                <div ng-repeat="scan in barcodes">{{ scan }}</div>
+            </div>-->
+            <div class="bar bar-header">
+               <!-- <a class="button icon-left ion-chevron-left button-clear button-dark">Back</a>-->
+
+                <button class="button button button-assertive" ng-click="myBills();" >My Bills</button>
+                <button class="button button button-assertive" ng-click="profile();" >My Profile</button>
+                  <button class="button button-icon icon ion-settings"></button>
+                    <button class="button button-icon icon ion-navicon"></button>
+</div>
+            <!--<div class="button-bar">
+                <a class="button" ng-click="myBills();" >My Bills</a>
+                <a class="button" ng-click="profile();" >My Profile</a>
+            </div>    -->
+            <h2 class="display">{{user}}</h2>
+            
+            
+            <div class="list list-inset">
+                
+                <label>
+                <p class="msg">Please scan the Item</p>
+                </label>
+            </div>
+            <div class="padding-left padding-right">
+            <div class="list">
+                <div class="button-bar">
+                    
+                    <!--<a class="button" ng-click="register(username, password)">Register</a>-->
+                    <a class="button" ng-click="scan();" >Scan</a>
+                </div>
+                <br><br>
+                <!--<p class="display">{{msg}}</p>-->
+                <!--<p class="display">{{productdetails}}</p>-->
+                <div ng-repeat="scan in scans" class="display">{{ scan }}</div>
+                
+            </div>
+            </div>
+            
+             <!--<div class="list">
+          
+                 
+            <label class="item item-input">
+                    <input ng-model="imageurl" id="imageurl" type="text" placeholder="Please enter url" />
+            </label>     
+       
+                 <a class="button" ng-click="getWeather();" >show barcode</a>
+    <br>
+                 <p class="display"> URL Image: <img src="{{imageurl}}" ></p>
+<div data-ng-model="st_temp"></div>
+    <div data-ng-model="end_temp"></div>
+    
+    
+    <p class="display">Barcode:  {{st_place}}  </p>
+    <input type="hidden" id="barcode" value="{{st_place}}"/>
+    
+    <a class="button" ng-click="getDetails();" >Get Product Details</a>        <br>     
+    <p class="display">Name :  {{end_place}}  </p>
+    <p class="display">Price :  {{price}}  </p>             
+            </div>-->
+            
+            
+        </div>
+    </ion-content>
+</ion-view>
