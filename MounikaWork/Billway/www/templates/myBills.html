@@ -1,0 +1,21 @@
+
+<ion-view title="My Bills Page">
+    <ion-content class="barc">
+        <div>
+            <div class="bar bar-header bar-energized">
+              <h1 class="title">My Bills</h1>
+            </div>
+            <br><br>
+             <h2 class="display">{{user}}</h2>
+            <div class="list list-inset">
+                
+                <ion-item class="billList" ng-repeat="date in dates" type="item-text-wrap" ng-click="thisBill(date)">
+
+                <h2>{{ date }}</h2>
+                
+              </ion-item>
+               </div>
+            
+        </div>
+    </ion-content>
+</ion-view>

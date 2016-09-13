@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+.button{
+background-color: coral;
+}
+
+.msg{
+color: blueviolet;
+}
+
+.display{
+color: green;
+}
+
+.error{
+color: crimson;
+}
+
+
+.barc{
+
+background-image: url(http://www.pageresource.com/wallpapers/wallpaper/fantasy-purple.jpg);
+
+}
+
+.list.list-inset{
+    /*background-color: floralwhite;*/
+    filter: alpha(opacity=90);
+}
+
+.bar.bar-stable .title {
+    background-color: deeppink;
+    text-decoration-color: black;
+}
+
+
+
+
+table, th, td {
+    border: 2px solid black;
+    //border-collapse: collapse;
+    
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.item-remove-animate.item-avatar.item-icon-right{
+    
+    background-color: chocolate;
+    color: antiquewhite;
+}
+
+.billList{
+    
+    background-color: antiquewhite;
+    text-decoration-color: red;
+}
+
